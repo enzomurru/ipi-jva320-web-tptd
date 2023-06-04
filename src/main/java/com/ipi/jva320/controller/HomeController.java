@@ -18,7 +18,7 @@ public class HomeController {
         model.put("nbSalaries", Long.toString(salarieAideADomicileService.countSalaries()));
         return "home";
     }
-
+//comments
 
 
 }
